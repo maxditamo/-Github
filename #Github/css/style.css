@@ -112,9 +112,7 @@ ul {
     padding-top: 50px;
     transition: all 0.5s;
 }
-.ofertas:hover {
-    transform: translateY(-15px);
-}
+
 
 
 /* ayuda */
