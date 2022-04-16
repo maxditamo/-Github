@@ -1,26 +1,69 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Step</title>
-    <!-- Estilos bootstrap-local-->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="body">
+    <!--Apertura de logo + nav -->
     <header class="header"> 
         <a href="index.html" class="logo">
         <img src="assets/img/one-step-logo.jpg" alt="Logo-One-Step" height="110px"></a>
         <h1 class="titulo">One Step</h1>
-
-
-
-
-
-
-
-    <!-- javascript bootstrap-local-->
-    <script src="js/bootstrap.js"></script>
+        <nav class="nav">
+            <ul>
+                <li class="list"><a href="index.html">Home</a></li>
+                <li class="list"><span class="separador">|</span><a href="pages/ayuda.html">Ayuda</a></li>
+				<li class="list"><span class="separador">|</span><a href="pages/productos.html">Productos</a></li>
+				<li class="list"><span class="separador">|</span><a href="pages/seguimiento-de-pedidos.html">Seguimiento</a></li>
+				<li class="list"><span class="separador">|</span><a href="pages/contacto.html">Contacto </a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Cerre de logo + nav -->
+    <!--Apertura de seccion y lista no ordenada de navegacion HMNDC reubicar hacia la izquierda de la page-->
+    <section class="section">
+        <!--Cierre de lista no oredenada de navegacion HMNDC-->
+        <div>
+            <h2 class="imperdibles">Ofertas Imperdibles</h2>
+            <h3 class="eleji">Eleji la tuya</h3>
+            <ul class="conteiner">
+                <div class="ofertas1-2">
+                    <a href="https://www.adidas.com.ar/ofertas"><li class="ofertas"><img src="assets/img/solo-por-hoy.jpg" alt="solo-por-hoy"><p>Solo por hoy</p></li></a>
+                    <a href="https://www.adidas.com.ar/outlet"><li class="ofertas" ><img src="assets/img/oulet.jpg" alt="oulet"><p>Outlet</p></li></a>
+                </div>
+                <div class="ofertas3-4">
+                    <a href="https://www.adidas.com.ar/black_friday"><li class="ofertas"><img src="assets/img/descuentos50.jpg" alt="descuentos-50%"><p>Descuentos de hasta 50%</p></li></a>
+                    <a href="https://www.adidas.com.ar/que-metodos-de-pago-se-aceptan.html"><li class="ofertas" ><img src="assets/img/mejor-finaciacion.jpg" alt="mejor-financiacion"><p>Mejor financiación</p></li></a>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <!--Cierre de seccion-->
+    <!--Apertura de footer-->
+    <footer class="footer">
+        <div class="divcontacto">
+        <p class="contacto-index">Para más información contactanos:</p>
+        <a href="mailto:atencionalcliente@onestep.com.ar"><p class="mailto">Aquí</p></a>
+        </div>
+        <ul class="iconos-rrss">
+                <a href="https://www.instagram.com/adidasar/?hl=es-la"><li class="logos-rrss"><img src="assets/img/instagram.png" alt="icono-insta" height="50px"></li></a>
+                <a href="https://es-la.facebook.com/adidasAR/"><li class="logos-rrss"><img src="assets/img/facebook.png" alt="icono-facebook"height="50px"></li></a>
+                <a href="https://www.adidas.com.ar/puedo-comprar-por-whatsapp-cualquier-producto-que-vea-en-la-pagina-de-ecomm.html"><li class="logos-rrss"><img src="assets/img/whatsapp.png" alt="Icono-wapp"height="50px"></li></a>
+                <a href="https://twitter.com/adidasar"><li class="logos-rrss"><img src="assets/img/twitter.png" alt="icono-twitter"height="50px"></li></a>        
+        </ul>
+        <div class="divcopy">
+            <p class="copyright">@Copyright 2021</p>
+        </div>
+    </footer>
+    <!--Cierre de footer-->
 </body>
+
 </html>
+
