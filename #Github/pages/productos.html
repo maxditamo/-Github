@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<title>Productos</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconectar" href="https://fonts.googleapis.com">
     <link rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
@@ -32,36 +33,42 @@
 		<h1 id="h1-productos">Los mejores productos para vos</h1>
 		<h3 id="h3-productos">Encontrá lo que buscas aquí</h3>
 		<table id="tabla-essentials">
-			<div class="fotos-productos-1">
+			<div data-aos="fade-right"
+			data-aos-offset="300"
+			data-aos-easing="ease-in-sine" class="fotos-productos-1">
 				<img src="../assets/img/conjunto-adidas-masc-modelo-2.jpg" alt="Conjunto-Adidas-masc-modelo-2" height="290px">
 				<img src="../assets/img/conjunto-adidas-masc-modelo3.jpg" alt="Conjunto-Adidas-masc-modelo-3" height="290px">
 				<img src="../assets/img/conjunto-adidas-masc-modelo.jpg" alt="Conjunto-Adidas-masc-modelo" height="290px" width="170px">
 			</div>
-			<h1 class="h1-foto">CONJUNTO PRIMEGREEN ESSENTIALS 3 TIRAS ADIDAS * $13.000 .-</h1>
+			<h1 data-aos="fade-left" class="h1-foto">CONJUNTO PRIMEGREEN ESSENTIALS 3 TIRAS ADIDAS * $13.000 .-</h1>
 			<h3 class="h3-foto">Un conjunto que es la definición de un clásico</h3>
 			<p class="p-foto">Vestite con una silueta clásica. Este conjunto adidas te transporta a los comienzos del hip hop y las prendas deportivas vintage con sus 3 Tiras y el cuello alto.<br>Su tejido tricot de poliéster reciclado es suave, cómodo y resistente para que puedas enfrentarte a tu día con tranquilidad.<br>Este producto está hecho con Primegreen, una serie de materiales reciclados de alto desempeño.</p>
 		</table>
 		<br>
 		<br>
 		<table id="tabla-cropped">	
-			<div class="fotos-productos-2">	
+			<div data-aos="fade-right"
+			data-aos-offset="300"
+			data-aos-easing="ease-in-sine" class="fotos-productos-2">	
 				<img src="../assets/img/buzo-adidas-fem-modelo3.jpg" alt="Buzo-Adidas-fem-modelo-3" height="235px">
 				<img src="../assets/img/buzo-adidas-fem-modelo1.jpg" alt="Buzo-Adidas-fem-modelo-1" height="235px">
 				<img src="../assets/img/buzo-adidas-fem1.jpg" alt="Buzo-Adidas-fem1" height="235px">
 			</div>	
-			<h1 class="h1-foto">BUZO CROPPED ADIDAS * $8599 .-</h1> 
+			<h1 data-aos="fade-left" class="h1-foto">BUZO CROPPED ADIDAS * $8599 .-</h1> 
 			<h3 class="h3-foto">Un conjunto que es la definición de un clásico</h3>
 			<p class="p-foto">Los logotipos atrevidos y los bloques de color en dos tonos fueron uno de los emblemas de los diseños urbanos de los 90.<br>Este buzo con capucha captura el espíritu de esa era con bloques de color en contraste y una cinta con los logotipos del trébol y de adidas en la parte frontal y las mangas.<br>Se ha confeccionado en un tejido de felpa muy suave al tacto. Esta colección combina estilos urbanos inspirados en la ropa deportiva noventera.<br>La cinta con los logotipos del trébol y de adidas conserva la esencia de Originals.</p>
 		</table>
 		<br>
 		<br>
 		<table id="tabla-nino">
-			<div class="fotos-productos-3">
+			<div data-aos="fade-right"
+			data-aos-offset="300"
+			data-aos-easing="ease-in-sine" class="fotos-productos-3">
 				<img src="../assets/img/conjunto-adidas-modelo-niño1.jpg" alt="Conjunto-Adidas-niño-modelo-1" height="280px">
 				<img src="../assets/img/conjunto-adidas-modelo-niño2.jpg" alt="Conjunto-Adidas-niño-modelo-2" height="280px">
 				<img src="../assets/img/conjunto-adidas-niño.jpg" alt="Conjunto-Adidas-niño" height="280px">
 			</div>
-			<h1 class="h1-foto">CONJUNTO BUZO DE CUELLO REDONDO ADIDAS * $3.499 .-</h1>
+			<h1 data-aos="fade-left" class="h1-foto">CONJUNTO BUZO DE CUELLO REDONDO ADIDAS * $3.499 .-</h1>
 			<h3 class="h3-foto">Un conjunto de dos piezas para los deportistas del futuro</h3>
 			<p class="p-foto">Vestí a tu pequeño con el clásico estilo de adidas. Este conjunto para niños con estilo luce un gran logo del Trifolio que destaca sobre el buzo.<br>Para complementar el look deportivo, las 3 Tiras en contraste y el logo del Trifolio en colores a juego resaltan en el pantalón.<br>Tanto el buzo como el pantalón están confeccionados en felpa francesa extra suave.</p>
 		</table>
@@ -84,5 +91,9 @@
         </div>
     </footer>
 	<!--Cierre de footer-->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
